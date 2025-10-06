@@ -1,6 +1,6 @@
 # Análisis de Desempeño Estudiantil
 
-> Trabajo del curso **Ciencia de Datos y Big Data** de la **Maestría en Ciencia de la Computación** de la **Universidad Nacional del Altiplano**.
+> Trabajo del curso **Ciencia de Datos y Big Data** de la **Maestría en Ciencia de la Computación** de la **Universidad Nacional de San Agustin**.
 
 ## Descripción
 Proyecto de analítica académica para identificar factores asociados a graduación, abandono e inscripción continua. La versión actual consolida el flujo en el cuaderno principal `main.ipynb`, que integra:
