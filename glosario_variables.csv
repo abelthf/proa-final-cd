@@ -1,0 +1,17 @@
+termino,categoria,descripcion,unidad,nota
+Curricular.units.Xst.sem.enrolled,académico,Créditos/unidades en que el estudiante se matriculó en el semestre X,créditos,X = 1st / 2nd
+Curricular.units.Xst.sem.credited,académico,Créditos aprobados en el semestre X,créditos,Mide avance real
+Curricular.units.Xst.sem.approved,académico,Cantidad de unidades/asignaturas aprobadas en semestre X,conteo,Relacionar con enrolled
+Curricular.units.Xst.sem.grade,académico,Calificación global o promedio del semestre X,puntos,Verificar escala exacta
+Curricular.units.Xst.sem.evaluations,académico,Número de evaluaciones realizadas en semestre X,conteo,Puede correlacionar con compromiso
+Age.at.enrollment,demográfico,Edad al momento de la inscripción,años,
+Scholarship.holder,socioeconómico,Indicador de beca,0/1,Sujeto a políticas de ayuda
+Tuition.fees.up.to.date,financiero,Estado de pagos al día,0/1 o categoría,Requiere mapeo valores
+Debtor,financiero,Indicador de morosidad,0/1,Riesgo económico
+International,condición,Estudiante internacional,0/1,Posible adaptación cultural
+Displaced,vulnerabilidad,Condición de desplazamiento,0/1,Factor de riesgo
+Educational.special.needs,vulnerabilidad,Necesidades educativas especiales,0/1,Requiere adaptaciones
+Unemployment.rate,macro,Tasa de desempleo contextual,porcentaje,Convertir a proporción
+Inflation.rate,macro,Tasa de inflación contextual,porcentaje,Deflactar si se usan montos
+GDP,macro,Producto Interno Bruto (escala país),moneda,Posible transformación log
+Target,resultado,Variable objetivo del modelo (p.ej. retención/desempeño),categoría,Necesita mapeo semántico
